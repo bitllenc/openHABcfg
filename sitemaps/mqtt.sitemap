@@ -1,0 +1,8 @@
+//SITEMAPS FILE
+sitemap demo label="MQTT values"{
+	Frame label="MQTT" icon=office
+		{
+			Text item=temp label="Temperature" icon=temperature
+			Text item=humidity label="Humidity" icon=humidity
+		}
+}
