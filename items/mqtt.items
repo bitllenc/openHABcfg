@@ -1,3 +1,4 @@
 //ITEMS FILE
-Number temp "Temperature [%.1f]" {mqtt="<[mosquitto:home/estudi/temp:state:default]"}
-Number humidity "HR [%.1f]" {mqtt="<[mosquitto:home/estudi/hr:state:default]"}
+Number temp "Temperature [%.1f]" <temperature> {mqtt="<[mosquitto:home/estudi/temp:state:default]"}
+Number humidity "HR [%.1f]" <humidity> {mqtt="<[mosquitto:home/estudi/hr:state:default]"}
+Number volume "Vol. [%d]" <soundvolume> {mqtt="<[mosquitto:tv/volume:state:default]"}
