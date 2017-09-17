@@ -1,0 +1,11 @@
+sitemap TV label="TV command"{
+	Frame label="TV" icon=tv
+		{
+			Switch item=MuteSwitch label="Mute"
+			Setpoint item=VolumeTV label="Volume" //minValue="1" maxValue="40" step="1" 
+			Switch item=Ambilight_mode mappings=[0="Internal", 1="Manual", 2="Expert"]
+			Colorpicker item=AmbilightAll
+		}
+}
+
+////valuecolor=[==0="gray",<=10="green",<=20="blue",>20="red"]
