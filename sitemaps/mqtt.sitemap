@@ -1,10 +1,15 @@
 //SITEMAPS FILE
 sitemap demo label="MQTT values"{
-	Frame label="MQTT" icon=office
+	Frame label="MENJADOR" icon=office
 		{
 			Text item=temp label="Temperature" 
 			Text item=humidity label="Humidity"
 		}
+	Frame label="HABITACIÓ" icon=office
+                {
+                        Text item=temp_s2 label="Temperature"
+                        Text item=humidity_s2 label="Humidity"
+                }
 	Frame label="TV" icon=tv
 		{
 			Setpoint item=volume label="Volume" valuecolor=[==0="gray",<=10="green",<=20="blue",>20="red"]
