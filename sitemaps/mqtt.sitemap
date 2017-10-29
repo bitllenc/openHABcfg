@@ -15,4 +15,9 @@ sitemap demo label="MQTT values"{
 			Setpoint item=volume label="Volume" valuecolor=[==0="gray",<=10="green",<=20="blue",>20="red"]
 			
 		}
+	Frame label="POTENCIA" icon=energy
+		{
+			Text item=power_cc label="Potencia"
+			Text item=temp_cc label="Temperatura"
+		}		
 }

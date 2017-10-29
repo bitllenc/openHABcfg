@@ -23,5 +23,5 @@ Items {
 	humidity : strategy = everyChange
 	temp_s2 : strategy = everyChange
 	humidity_s2 : strategy = everyChange
-	* : strategy = fiveMinutes
+//	* : strategy = fiveMinutes
 }
