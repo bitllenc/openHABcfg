@@ -4,4 +4,5 @@ Number humidity "HR [%.1f]" <humidity> {mqtt="<[mosquitto:home/menjad/hr:state:d
 Number volume "Vol. [%d]" <soundvolume> {mqtt="<[mosquitto:tv/volume:state:default]"}
 Number temp_s2 "Temperature S2 [%.1f]" <temperature> {mqtt="<[mosquitto:home/habit1/temp:state:default]"}
 Number humidity_s2 "HR S2 [%.1f]" <humidity> {mqtt="<[mosquitto:home/habit1/hr:state:default]"}
-
+Number power_cc "Power [%.1f]" <energy> {mqtt="<[mosquitto:home/CC/power:state:default]"}
+Number temp_cc "Temperature CC [%.1f]" <temperature> {mqtt="<[mosquitto:home/CC/temp:state:default]"}
